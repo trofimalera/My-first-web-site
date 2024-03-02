@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-block {
+    background: url('../img/Background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 286px;
+    padding-bottom: 208px;
+}
+
+.main-text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 79px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.main-subtitle {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+}
+
+.main-button {
+    margin-top: 32px;
+    padding: 26px 22px;
+    background-color: white;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.about-me-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 72px 0 181px;
+}
+
+.section-title-text {
+    font-family: 'Montserrat';
+    font-size: 37px;
+    font-weight: 600;
+}
+
+.person-info-section {
+    max-width: 1380px;
+    display: flex;
+    font-family: 'Montserrat';
+    flex-direction: row;
+    justify-content: center;
+    gap: 97px;
+    margin-top: 51px;
+}
+
+.person-text-area {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    justify-content: center;
+    gap: 40px;
+}
+
+.person-info-area {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    justify-content: center;
+    gap: 40px;
+}
+
+.person-info-text {
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer-block {
+    background-color: #1E2E3D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    padding-bottom: 123px;
+}
+
+.footer-info-section {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-title {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.footer-text {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 27px;
+    gap: 20px;
+}
+@media screen and (max-width: 975px) {
+    .person-info-section {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .main-title {
+        font-size: 50px;
+    }
+    .footer-title {
+        font-size: 25px;
+    }
+    .footer-text {
+        font-size: 12px;
+    }
+}
